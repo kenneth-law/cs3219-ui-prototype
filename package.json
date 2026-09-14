@@ -1,0 +1,38 @@
+{
+  "name": "figma-make-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "oxfmt",
+    "check": "tsc --noEmit",
+    "test": "tsx tests/prototype.test.tsx"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "oxfmt": "^0.2.0",
+    "typescript": "^5.7.0",
+    "vite": "^8.0.5",
+    "jsdom": "^26.1.0",
+    "tsx": "^4.20.0",
+    "@testing-library/dom": "^10.4.0"
+  },
+  "x-ai-disclosure": {
+    "tool": "OpenAI Codex (GPT-6)",
+    "date": "2026-09-06",
+    "scope": "Added prototype test/check commands and test dependencies",
+    "humanReview": "Pending; see /ai/usage-log.md"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "x-ai-disclosure": "OpenAI Codex (GPT-6), 2026-09-06. Prototype metadata; human review pending. See /ai/usage-log.md.",
+  "description": "A campus errand prototype for requesting pickups, helping other students, and tracking closed-economy credits.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  },
+  "title": "Campus errands"
+}

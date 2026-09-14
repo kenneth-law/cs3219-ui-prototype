@@ -1,0 +1,4 @@
+# AI Assistance Disclosure: OpenAI Codex (GPT-6), 2026-09-14.
+# Scope: Store prototype image assets in ordinary Git for standalone cloning.
+# Human review pending; see ai/usage-log.md.
+*.png binary
